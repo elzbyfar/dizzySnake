@@ -4,12 +4,8 @@ const scale = 10;
 const rows = canvas.height / scale;
 const columns = canvas.width / scale;
 let count = document.querySelector(".amount");
- 
 
 var snake;
-
-
-
 
 (function setup() {
     snake = new Snake();
